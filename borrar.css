@@ -1,0 +1,96 @@
+﻿body {
+}
+/*HEADER*/
+header {
+    margin: 10px auto;
+    background-color: red;
+    width: 800px;
+    height: 230px;
+}
+
+div.contenedor {
+    width: 200px;
+    height: 230px;
+    float: left;
+}
+
+div#uno {
+    background-color: rgb(208,101,3);
+}
+
+div#dos {
+    background-color: rgb(233,147,26);
+}
+
+div#tres {
+    background-color: rgb(22,145,190);
+}
+
+div#cuatro {
+    background-color: rgb(22,107,162);
+}
+
+img.icon {
+    display: block;
+    margin: 50px auto;
+    width: 50px;
+}
+
+img.icono {
+    display: block;
+    margin: 15px auto;
+    width: 95px;
+    -webkit-border-radius: 50%;
+}
+
+p.txt {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+div.contenedor:hover {
+    height: 250px;
+}
+
+nav.contenedor p a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px,50px,0px,50px;
+    background-color: red;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+/*MAIN*/
+div#registro {
+    width: 100%;
+    margin-top: auto;
+    margin-left: 37%;
+    color: aliceblue;
+    padding: 10px;
+}
+
+input#boton {
+    border-bottom: groove;
+    margin: 5px 10px 10px 40px;
+}
+
+/*FOOTER*/
+.Sociales {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    width: auto;
+    height: 80px;
+    font-size: 25px;
+}
+
+.Sociales p {
+        text-align: center;
+}

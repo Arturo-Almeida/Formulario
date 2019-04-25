@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="modificar.css" />
+</head>
+<body style="background-image:url(ser.jpg)">
+    <h1>Formulario de Registro</h1>
+    <header>
+        <nav>
+            <div class="contenedor" id="uno">
+                <img class="icono" src="insertar.ico">
+                <p class="txt">
+                    <a href="insertar.html">REGISTRO</a>
+            </div>
+
+            <div class="contenedor" id="dos">
+                <img class="icon" src="eliminar.ico">
+                <p class="txt">
+                    <a href="borrar.html">BORRAR</a>
+                </p>
+            </div>
+            <div class="contenedor" id="tres">
+                <img class="icon" src="actualizar.ico">
+                <p class="txt">
+                    <a href="modificar.html">MODIFICAR</a>
+                </p>
+            </div>
+            <div class="contenedor" id="cuatro">
+                <img class="icon" src="mostrar.ico">
+                <p class="txt">
+                    <a href="mostrar.html">MOSTRAR</a>
+                </p>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="registro">
+            <form action="modificar.php" method="POST">
+                <table border="1">
+                    <tr>
+                        <td><label>Nombre(s)</label></td>
+                        <td><input type="text" name="nombreuser" placeholder="Nombre(s)" required /></td>
+                    </tr>
+                    <tr>
+                        <td><label>Apellidos</label></td>
+                        <td><input type="text" name="apellidosuser" placeholder="Apellidos" required /></td>
+                    </tr>
+                    <tr>
+                        <td><label>Correo electronico</label></td>
+                        <td><input type="text" name="emailuser" placeholder="example@mail.com" required /></td>
+                    </tr>
+                    <tr>
+                        <td><label>Contrase&ntilde;a</label></td>
+                        <td><input type="password" name="pass" placeholder="**********************" required /></td>
+                    </tr>
+                    <tr>
+                        <td><label>Repetir Contrase&ntilde;a</label></td>
+                        <td><input type="password" name="rpass" placeholder="**********************" required /></td>
+                    </tr>
+                </table>
+                <input type="submit" id="boton" value="Actualizar">
+                <input type="reset" id="boton" value="Reestablecer">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
